@@ -140,7 +140,7 @@ main {
 
 /* what I do section */
 
-.WhatIdosection-title{
+.WhatIdosection-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
@@ -149,10 +149,29 @@ main {
 }
 
 .WhatIdo-section-description {
-    padding: 30px 300px;
+    padding: 30px 130px;
     color: #757575;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    margin-top: 0px;
+    margin: 0px 130px;
+}
+
+/* SKILLS RELATED SECTION */
+
+.skills-container {
+    display: flex;
+    margin: 40px 130px 150px;
+    gap: 30px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description{
+    color:#757575;
 }
